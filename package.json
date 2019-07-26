@@ -1,8 +1,8 @@
 {
   "name": "orochi",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.10",
+  "description": "puppeteer",
+  "main": "./lib/orochi",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/miaomiao8890/orochi/issues"
   },
-  "homepage": "https://github.com/miaomiao8890/orochi#readme"
+  "dependencies": {
+    "chrome-launcher": "^0.10.5",
+    "lighthouse": "^3.2.1",
+    "orochi-seo": "^1.0.2",
+    "puppeteer": "^1.8.0"
+  },
+  "homepage": "https://github.com/miaomiao8890/orochi#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  }
 }
